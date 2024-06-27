@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Scalboost Listado Productos Front
 
-## Getting Started
+Este proyecto es una aplicación web desarrollada con Next.js para la gestión de un listado de productos.
 
-First, run the development server:
+## Tecnologías
 
-```bash
+- **Next.js**: Framework de React para aplicaciones web.
+- **TypeScript**: Lenguaje de programación que extiende JavaScript.
+- **Tailwind CSS**: Framework CSS para diseño rápido y receptivo.
+- **PostCSS**: Herramienta para transformar estilos con plugins de JavaScript.
+
+## Estructura del Proyecto
+
+- **public/**: Archivos públicos estáticos.
+- **src/**: Código fuente de la aplicación.
+- **.eslintrc.json**: Configuración de ESLint.
+- **next.config.mjs**: Configuración de Next.js.
+- **tailwind.config.js**: Configuración de Tailwind CSS.
+- **tsconfig.json**: Configuración de TypeScript.
+
+## Configuración y Ejecución
+
+Para iniciar el servidor de desarrollo:
+
+```
 npm run dev
-# or
+```
+
+# o
+
+```
 yarn dev
-# or
+```
+
+# o
+
+```
 pnpm dev
-# or
+```
+
+# o
+
+```
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```
+Abra [http://localhost:3000](http://localhost:3000) en su navegador para ver el resultado.
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Edición
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Puede comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
 
-## Learn More
+## Despliegue en Vercel
 
-To learn more about Next.js, take a look at the following resources:
+La forma más fácil de desplegar su aplicación de Next.js es usar [Vercel](https://vercel.com/), la plataforma creada por los desarrolladores de Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Consulte la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Recursos
 
-## Deploy on Vercel
+- [Documentación de Next.js](https://nextjs.org/docs)
+- [Tutorial interactivo de Next.js](https://nextjs.org/learn)
+- [Repositorio de Next.js en GitHub](https://github.com/vercel/next.js)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Licencia
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está bajo la Licencia MIT.
+
+Asegúrate de personalizar la sección de "Licencia" según los términos bajo los cuales deseas distribuir tu proyecto.
